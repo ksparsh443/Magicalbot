@@ -2,4 +2,3 @@ streamlit
 replicate
 SpeechRecognition
 gtts
-PyAudio
