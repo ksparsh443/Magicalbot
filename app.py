@@ -57,8 +57,8 @@ with st.sidebar:
     st.title('Magical toys')
     st.write(
         'This chatbot is created using the open-source Llama 2 LLM model from Meta.')
-    if 'REPLICATE_API_TOKEN' in st.secrets:
-        st.success('API key already provided!', icon='✅')
+    #if 'REPLICATE_API_TOKEN' in st.secrets:
+        #st.success('API key already provided!', icon='✅')
         replicate_api = st.secrets['REPLICATE_API_TOKEN']
     else:
         replicate_api = st.text_input(
